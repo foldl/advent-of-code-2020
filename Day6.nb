@@ -1,0 +1,393 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     23467,        385]
+NotebookOptionsPosition[     22395,        356]
+NotebookOutlinePosition[     22809,        373]
+CellTagsIndexPosition[     22766,        370]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["1", "Section",
+ CellChangeTimes->{{3.817071905144342*^9, 3.8170719182231984`*^9}, 
+   3.817098312354944*^9},ExpressionUUID->"3b5715f8-fc59-4a77-9e4b-\
+2037f361547f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"input", "=", 
+   RowBox[{"StringSplit", "[", 
+    RowBox[{
+    "\"\<necytxmlfhsu\nuecosjvlhpmk\n\nmnslbuziphawkxyg\nwhpmnesikaglzb\n\n\
+kaw\nakw\n\nqurg\nhrqug\nqrgu\ngruq\n\nsczomkv\nzejkhvslmucbwdo\npxsianovzcmk\
+\ntcokmvsyz\nozskvimcr\n\ntfzajkxngwsqrbleic\ntijoqnerxsplwzgabkfc\n\
+ogkezbiwqtaxrscljfn\nxsqauezwnjckbtgiryfdml\n\npiz\nzip\n\ntlp\nnpl\nlpt\n\n\
+idbnxuclqgw\nsxfdnlatmbhcowigj\nplzgbwdqkcinx\nydxinwgcblr\n\n\
+nbuxjwhsrlekfyzpq\nkecyiurjfvqpbxhzsn\nnkxfhpbsuyrqjezom\ntinlhkbjsuydrqpzexf\
+\npnzraelgquxhydsbjkf\n\nobvmw\neoczsqun\n\nnhdxqwk\ndnzmlxwhkapq\nwhxqdnk\n\n\
+jnqdabgc\nnacqdbgj\n\nbuyskiwz\nuazbkwys\n\nmbfxswpli\nuswalhxz\nxnq\n\
+tdcrjgoyekv\n\nfancdpkmtuqy\nzdmenqjpaxftuy\n\njkul\nd\no\n\nvhpoxgqsrtce\n\
+hgopxeqcdrstv\nxcvrqoetpsgh\n\ngekpzayfux\npyegazxukf\npkxaezhgyfu\n\
+fegypukaxz\nzxpyefugka\n\nyrpfd\nydsh\n\nsmjqcafnug\nmnicqsu\n\ntkxi\nixakt\n\
+tfncxkmi\n\nkedibluzopjhagvtxf\nafiklbvtjeoudhgpzx\nlavbxpjzgedktoifuh\n\
+tbgpaxjqeoifvklhzud\nzghidtfplxbvkoueja\n\ngtvnqyrmf\nhogpb\n\ncnelsqwj\n\
+atyimdbvfxuozkg\n\nlgybpaeztvhrxducjiqosmnwk\nivpaygxweszductombhljrqk\n\n\
+grli\nlrig\nsjglri\ngirl\nrigl\n\nqnwmxjbpecoyztufidhsg\n\
+ynqdiwhmusgtebjfzxcpo\n\nluasrtmfkgywv\nvgskmufywrat\n\nceyux\nycux\n\n\
+nurijfsovkbxdp\nayqclmthgzwe\n\nxeqjdhsubiovwrg\ngobdjqwvusehrx\n\
+weqjgvhosudrbx\nngdubsvqxejrhow\n\nywdfqpxekujbovr\nyujfdoqbkxrepvw\n\
+owfkudjbvyrxqep\noqjvedypxukwbrf\nxufwdpebyjrqokv\n\ncsujqndzmw\nwznscqmjud\n\
+cqpwjzmunda\nwjumnzcqd\n\ndhsow\nohswd\nwsnogh\n\ncxfltiq\nixztfq\ngtfqiux\n\
+jtqfxi\nxiftzq\n\ntr\nrt\nrt\n\npnuztcbegwiksd\ncuewibkptdnm\n\
+nvqdpcjxekiwtauhofb\npbytreinuwdkc\n\ny\ny\nhejq\n\nrvmwqn\nwvrmq\n\n\
+knxmwecsjlrft\nhnmwzaqt\ndmywnitg\ntmwvquonh\nbwqvtmnh\n\ne\ne\ne\n\n\
+qjtywgdlek\nnhifs\nzvxinh\n\nnzhroemi\ndzruoegimh\nemzoirh\n\nhpfkraltbxg\n\
+gazxlmphrt\n\njyhugbxqz\nzbnox\nepdilfaw\n\nvmr\nvsfm\nfmvsr\nmnvckiaqy\n\n\
+zegpfuwtkrnoqdh\neorznfkgpduth\ntkfpzhnredguo\n\nzmqkwxipctney\nncwzeqpmkiytx\
+\nyptienwzxkcqm\nyeqwcpxtkzmin\n\ncsbdyzl\nejoiwtzqabm\nlzbkup\nzbvprxf\n\n\
+wvpshngbmiftuzrxoyde\nszobihvwpdtylqerc\nphbdzoikvtajyesrw\n\n\
+ymuflnrxspqvkihbe\neymxrhlfnqksuivbp\n\nrktwzd\nwtdkzir\nwkmaziqdrt\n\
+togpzwdkr\n\nuwiazbylcpojst\nlcyibajuptwzso\n\ndtoqbcxhlyrpfwjnkasugvm\n\
+wunkfstmcjhqxliogrdvpy\n\nwpnk\nhdpkwuftjymv\ncpkownz\nkpwz\nrqpwnk\n\n\
+tfplznqcju\npuqlsnzfjtv\njqtfpzlun\nntqpczjflu\n\nozalwumpqv\nztheoalrwsciyk\n\
+\nwyiqbsr\nbysqwri\nyrbswiq\niqwrsyb\niwbrysq\n\nelnroc\nzmjlre\nvhelbru\n\
+jyhruezflvk\n\nftyceboh\nofybh\n\njvlbdm\nnoakrg\n\ndokjncqauebfpmszvtl\n\
+suebonpdjmflaqctkvz\ndtjzmcblsvokpunaefq\ntjzmeqkafluvpbconsd\n\n\
+qhrmvegsicnyupf\nuifknverhsg\nizlrvgefndjwasuh\n\nsyxvtjwfucilqogmnpk\n\
+jwkytpqofgimvcsnlxu\ndwhglcxzoqnmjfkuiyvpst\nygwntxipqlmvkufcsoj\n\n\
+hdnqaburow\nhqwadmbocsgue\nbwoqtuadh\nadqhbwuo\n\ndzfohqe\nehfqzod\nfdzhoqe\n\
+hdofzeq\n\nsxmkrghyvlwzbc\nyhkmwzxbgsvlc\n\nqdumkytwlfsrja\ndrfqukzymilsjaw\n\
+jkwqumylsardf\n\npcvs\nprvc\nhmbpvc\nsvrpzc\n\nepkjyc\njerpoy\ngjpye\n\
+abxepuyj\nejyopc\n\nohe\ngheo\neoh\nofehy\n\nklhziowmjpyfubdsaqtgvrcn\n\
+aytbormdiksnqpzhcfvulgjw\nlhmvkafdrscjgwnyiuptqobz\n\nvcrqpdxljnmgusie\n\
+cgdwmipluoe\n\nhqibentfmxyszljow\nmsozdjnibrfytxqhle\nimlyxwehznjsbft\n\
+ysifkzbljphuxcmenvt\n\nvjhdmkrpecniafgqlstxyzb\nzxjrkebfvcwyqihlsmpgtd\n\
+xrfzidgthsbklmveypqcj\nvjxytzgdlbefsirkcmpqh\n\ndyxrwbngpijkt\nxtwkdipaygjr\n\
+iklrmzwpjxgdtuye\npdgrxyjkitw\nxtirhvwgdkjyp\n\nzbjdt\njdat\nshouqjtxcd\n\n\
+klarpuiv\niqaxjdps\ncpnafbsi\n\nxfpiourcst\novfrlutxpb\ntrgqfxjuop\n\
+rsktucfpox\nrtufoqpx\n\ng\ng\ng\n\nnfutbyvj\numvwyi\n\ntjniwlydzqpsxbkcmugf\n\
+utpmixqdvzbfcwgljs\n\nwetypdlnxm\ncfavwyzji\nmywgu\nlyorqkbw\nwhdeyxp\n\n\
+qsbnwozepvhkmaxdrt\nqmsopwtaznxfkehdyrv\nxnvhwrzpemkqdtsoa\n\
+ituvkrhmdegazwsobnxpq\n\nfxhwdio\nhofdxi\nhivztfonxdg\nfhkoidx\n\nja\njca\n\
+ajzxt\nahjy\ntajc\n\nepan\npcn\nudn\n\nmfowepjdlnkags\noakwgflnp\npnlzgoawfk\n\
+kfgrowlnap\n\nuw\naimwo\nwzrhcjeq\nwtf\nw\n\nx\ntvx\nx\n\ntigsjdufrwomv\n\
+vjrstigqudohwkm\nvisrjodutwbmg\n\nety\nexatp\nhicfzqnb\nuvejo\n\noqlgmk\n\
+kgvqxd\njzhgkpdqy\nikegfwatqub\nnlogqkz\n\nsl\nq\n\nrkpew\neqrwk\nrakwe\n\nr\n\
+r\nr\nrb\n\nu\npua\n\npjmhtvd\ndrjnpuvib\ndjsplvy\ndpvj\n\ncaugyqs\nhxwyqst\n\
+sougylqre\n\nkrfshpzjmgav\nuwrqidcotlbxhj\n\nmzivctbfjgwq\nlsomkypgajiq\n\n\
+ikoamrpc\nkmociarp\nbrkmpiwycoa\nitmckrodpa\nkmipacro\n\nhtbpcdqx\nctpbxdq\n\n\
+gpduzcoiyxhleqrknbaw\nnirehbulapcoxkzwdy\nicuzyxopwhkalendrb\n\
+aokdrxhlcebpyiuwnz\n\nyzlvptdaubjerkh\niyaoltghebpndkjszr\nkqxjtldzpbcyawh\n\
+dbjtlavzmfhkyp\n\nvg\nsv\n\ncdiaynroehqw\ncqtaridyohewn\ndciornehwayq\n\
+rwhnoaeqicdy\nwqroadniechy\n\nivstkj\nvgciqk\nqkivg\nvkgi\n\nfp\npf\npf\nfp\n\
+fp\n\nxidyqnk\njbicfant\nzabfhin\n\noqtys\nstqyo\nsyqot\nyostq\nboqytws\n\n\
+gmnqxaictud\ntucidaxqnmg\npgtquxidcnma\niagdtcfmquxn\n\nyfhxgw\nrgn\nnsog\n\n\
+wndrqktbmfa\nfwqadkrtbnm\nmabfntkqword\nqbwntakrmdf\n\nelanoudxhbzfrtvci\n\
+ztalefiodxrubvckhn\nulvabcnthpdzxoifer\n\nomdrvepliwafhjynbscu\n\
+mblrxjsfahocwnvyu\numcjlsowatvnfybhr\nuahvcnbwlmsjzfoyr\n\nn\ntn\nn\n\ngrk\n\
+rgk\nkrg\ngkr\nrgkhv\n\nstmlnek\npgsltne\n\nalcztk\nbctvk\nkhcgtb\n\n\
+nsgevcthrpykbwfoizda\nkhneritgszvbfycaowdp\nivybwzeaogdsrnfctphk\n\ne\ne\ne\n\
+\ncxkzdbgiqyawnm\nafyvkbeirtjowmcl\n\nomb\np\n\nlnhwcoiyafs\nsoihnyxqfc\n\
+ohncjyifsq\n\no\no\nom\noxqnsd\noaj\n\nokucjhiq\nxpgwcnqjiomyfluk\n\
+irhoukdsbjqc\n\nuolgz\nnglczu\nzlngu\nzmhlgvjru\n\nmhdapszf\nanmfwdvkc\ndpamf\
+\n\naqleivtyzsogjc\nsyvbgxqpdflezoac\nilvzqsjaegokyc\n\nzxndhja\nhaxzd\nxhazd\
+\n\nmo\nom\nmo\nmo\n\nvfxep\nxfepv\nxevpf\nvexfp\npevfx\n\nmrtkehqnjxizgp\n\
+kbunrqytcmes\n\nnz\nipneu\n\nbznteo\ntbzeoqwp\nolftzbpk\ngrzvityxudohjma\n\n\
+xg\nrg\n\nrdu\nurvd\nrud\nrzud\n\nsomnbutz\ntuosnmb\nntomsbu\n\n\
+fxsvrzqntbueoyp\neqzsvxyunbroptf\nzvypnrxfsqebuot\nzrosbxeqpunvfty\n\
+zprtfvsnbquexoy\n\nqwzknfvl\nfunqlwkj\nnqkwflz\nfgxlkwzqn\n\nrzqihd\nrbz\nzr\n\
+uzer\nrbz\n\nutrq\nosa\npm\n\nzgdci\nbrhu\n\nbxvymlzqkpha\nvmhlakpyxq\n\
+ypxvqkmhal\nxhvpymaqkl\naplqvkhmyx\n\nsjntbvyogeplwzu\nrbjqiefhapxodwk\n\n\
+frlsoptqwbc\nljrzxqntfom\n\nzlhvjamtpfonk\nlcokjzdhmfvnp\nsiohzynkmbjvlrf\n\n\
+osvgwnticelpzm\njvswetpozlcg\n\nnpmgrvysfj\nnvqxrjfsgmp\nvofthkcjsblpmudizwr\n\
+\noiev\nlmeiov\noiezyv\nuievodkac\n\niforupqjzykdtc\nyqfhdcxvtopz\ntzqpfdycgo\
+\nceyqfozvtpd\ndpxqflohzyatc\n\nsrz\nzsrt\nstrz\nxzs\nsz\n\ndgo\nodg\nogd\n\
+dog\nqogd\n\ngotwqhick\nokhqtgicw\ngsouwitkjcqh\nhctgioqwk\ntkghocwiq\n\n\
+mfnziwvxtlpubqryojasd\nmzojuctvnbriypwflskqda\npmuavqjifnlhrtbyzwods\n\nozj\n\
+joz\nzjo\njzo\n\njzwbhrscm\nrzmhjctb\nzbrhcmj\n\nsucgimtr\nmyliojcrsg\n\
+ipcsegxrmv\n\nznhvi\nhvin\nwosganie\n\nwptoqxmafhg\nawqfhgcozmtx\n\n\
+azbqlviyrwjc\nybxcrawv\n\nqa\nvcuwbfgsl\nhkraj\n\nbiglkjtpoqs\n\
+zvxcfumeywrhand\n\nske\ns\nsp\nhs\n\nn\nyn\nn\nn\nn\n\nlrvsmxzkgi\nzgrmkdsxl\n\
+lzgmpakrs\nwgqtrkmsfz\nnirmkugzds\n\ncrewvjdqsplkibthxz\nwxjmtpirhalqsckbdz\n\
+\niecxrbplho\nxhrpibovlce\nbrxlgchopei\ncbhioprexln\nlchxirebop\n\nf\nf\nq\n\n\
+nxqkrhdi\npkhdrquxn\nynqdlxkh\nxghkndq\n\nwvknrdjx\nvknxrwdm\nkfvicpwndb\n\n\
+rcqwlutsanpdz\nyoxenmkvbjf\n\nizqsa\nsqzai\nzqsai\nosiazq\nizqsa\n\n\
+ysokhbpzcqanmdifw\nkdlowyusmqhbjxci\nhibkmzocndqswy\n\nyjwd\nbgas\nyj\nk\n\n\
+tzruq\nuorz\nzckrvux\n\nrjn\nnrj\nnrj\njrn\nnjr\n\necu\npzus\nwokxu\nruw\ntwu\
+\n\nfcnajztduyripl\nchmpkvlynsxrauobji\n\ncwfgtjre\nejwufr\nfrwje\n\
+newvryfjbhq\niwjextrf\n\nltqapiwhzfeoncxdg\nhndclgoxeiwtpqfz\n\
+cwnpdogxteilfqhz\n\nuerinxhsygpbzcdvfmo\nlxeihducozgqnrymb\nedmugnyxifoczrbha\
+\nucezhnrsdybmiotgx\n\nxuvfhjeyi\nztcgaqs\n\nyxrospmijwvcdb\nyjpbrcosuv\n\n\
+viuhdrgnlak\nlniaruvkdgh\nkhrgdnuiavl\n\nqfzxb\ngfqx\n\nk\nnzyo\nkcj\n\nbmi\n\
+bmi\nimb\nimb\nubmi\n\npl\npl\npl\nlp\n\nx\nv\nx\n\nhgwtocs\ngdctwhoi\n\
+iczwfgtoxh\n\nwrcjdaqm\nwsrlog\njrnqmcw\n\nouhmpnyskxcqafidbjvgt\n\
+dnimvbpytfsoagucjx\njpctsmuxiaovyqnfdbg\ngzbvfwmojuyxsrdtpcna\n\
+yxfolphstnabcmuvjgd\n\nnlrdxe\nceksxuhazmjo\nywxedfgqtpr\n\n\
+ckuwoghtaxrledvzms\nmtksozduwvrehxclag\nxwvcusrmlazoetkdgh\n\
+regwvshxkdzuctomal\n\nkhsnymbpjz\nhzknspmbj\n\nzqc\nkpgsjrqxiyd\nwtbuhoq\nqwc\
+\neq\n\nljewzy\nqlwjy\nwzljy\nlwyj\nljwy\n\nvpodmhni\nbvryknfg\njcutez\n\n\
+wedfcoh\nwigfnjkaoz\nexwoqfm\npfuohsw\n\nadyzjwgqxv\nqjwvxzagyd\n\ncazpofbyd\n\
+nodypfbcam\n\nukvrcslyqzamhteowdfibx\nktrgqpmnawdycsivhzlbefx\n\
+fxdabuylcveksjwrmzqhtio\n\nxyb\nxesy\nxdqcy\nyex\nxy\n\nhotd\nodhzqt\nothd\n\
+htod\n\nhvkc\nlzei\nasw\na\nd\n\nq\nq\nq\nq\nq\n\na\na\na\n\n\
+suqbvedipgzcjykfmaxno\njzfudeoxikpbvmgynsha\niswkepmodzvfgxnylujba\n\n\
+xpqjonkzlrfhtyw\nfjqksrlozypwnmxth\npkrohjnxlfzyqtw\n\npxuhsc\nhcxsnu\nhxcse\n\
+cxhws\nhcrsex\n\niglfosahy\nhizgfalodbs\nlgfoiahs\ngsfalhyio\n\n\
+xrgzwbdnohfeijacsmltqp\ndjpgqrimtwcafsxnlebzoh\n\nqlrn\nqrn\nqrn\nqrn\n\n\
+xhbiakuzcjm\nnfpykow\nklfs\n\nlcubkpfhnomgwyarjetqd\nwtcrgofdnlpbaykquevhj\n\n\
+bdqusvnyetklmwizcopxjr\ndrbxlptyeqcvjwiusmzokn\noqcjzvuwslkpedbxmrntyi\n\
+jvlnxtdpkusyczbeomqirw\nwltriuqnpzcxbysvojdmek\n\ntyeorbzjdxpqn\noprlqdnwbzyx\
+\nbrnydoqzxp\n\nbupvcrylqazehoknjtf\naqfroczbylpvuejk\nubqvelyfrzoxcpagkj\n\n\
+awbzx\naxuw\nywildxoa\nuwxnba\n\nmjfvro\nwmrfjov\nojvmursf\n\nzwxouqy\nouzyw\n\
+\ndsxf\nsfdti\nsyrfd\n\nzmibfjk\nkimbz\n\nnebq\nbeqn\neqnb\nbqnpe\n\n\
+avtnckldjpeys\nscjtklpdneyav\nkytncdpsvaelj\ntkpacjysdnvle\ndycsvtjplenak\n\n\
+mkyojv\nbiwro\nbotsx\n\nowxyu\nwyuxo\nyxwuo\n\nqgjplcvo\nvgjqocpl\nojvlcpgq\n\
+\nxczvkuohisrfqbagp\nprbeilfzognvqws\nvoitfqpgjmrzsb\nrvlfdoqigsbpz\n\
+ipqogbrzfmsv\n\nj\ns\nst\nt\npzde\n\nkuwbthejxcfrzgosmn\nxwcukhrtsgzf\n\
+tkfcguxwshrz\nhxukfzgdwsrqict\nzwucgkfqhvxtrs\n\nwvthikzpgrjaf\nswdnemkqobcyx\
+\n\nlewoquaprbkxyj\nxpelwoaksubcrhqd\ngbrxmluktiwnaopqe\nepxuyczokafblwjrq\n\n\
+mcyepsvwxr\nbhe\nnqeztgd\nuaehil\n\ntq\nbe\ne\n\nduqgair\ndfrwuiqga\nqaugidr\n\
+\nhmofng\nhgnomf\nmofghn\ngmotfhn\n\newhblqnsmjict\nwhmbxvpjs\nufzyaogdkr\n\n\
+jqpynazsfvklied\nsjilykvqza\nizsvjlqayk\nqiksvzlajy\n\nvbps\nvbstp\nevnigorks\
+\nvbst\njslv\n\nqgdzylwkbfou\njbwygulq\nqwhxrugpeb\ngiqdfvbwu\n\njubto\n\
+aeuvgdpx\nunl\nyorqui\nuqm\n\nic\nkci\na\ni\ngyfe\n\ntjxp\nxtj\nxjt\n\n\
+ldspeai\neapidul\npeiadl\nipelad\n\noymwvfriux\nmoxuywvfir\nrmvxwoujifyb\n\
+fpvwdumgyroxzi\n\nmcplvnkgjfz\nidszwngkfcvpl\nnjzfklgcpvo\nfcvokpnlzg\n\n\
+xdnsilr\nirnlsx\n\nbndvimefz\natopdu\nxhswykcqgrjl\n\nkvlorsye\n\nvsdoq\ndvos\
+\nvodjs\n\nbxczyfeajkmloi\njcimfkaloybxze\nceijaokfzyxmlb\nfeymoacbjxikzl\n\
+kcxmiebzyaoljf\n\nlo\nol\n\netxkfsgjlqoy\nfgshieyj\nesywfgj\ngwrjsyepf\n\n\
+jtzlgakxins\ngqlznxfabskijp\nikaxgsnzljh\nlgaizhkjxns\nhgaznkjxtlis\n\n\
+urhjiycw\nrhycisw\nzrwihkcy\n\nxc\ncvx\ncx\ncxgl\n\naudxneqrchg\n\
+efkmodwqplrzsiyb\n\ng\nx\nx\n\nziuplaqo\nczqtihuw\nzufiq\nnqzubpixak\n\n\
+cibdku\ndbckiu\nkdciub\n\neshpjzgtwrka\ntgwpafmsjkrehz\nsekbwtnxjhpzrag\n\ndj\
+\ndm\ndj\n\ntrqkdpwoxjfyg\ncsu\nancv\nlui\nebhmaz\n\nljbvexnhgwfs\n\
+hfjbxneyilwgu\nznejqblcdhfgwx\n\nb\nb\nb\nb\nb\n\nidxrcyjegnu\nlrhvskceg\n\
+rozwmgafbce\n\ngzasrwjlukomvdxhbpc\ncahmgzurlvpwxbdjs\nuxjzsbgmdlchvprwa\n\
+hramvdjxslubpzgcw\n\ngw\nwge\n\nfpgdzy\nwpfdbz\nzpfahde\nlfdpszcorx\n\
+zfdgbqpha\n\ngfuclekqavitdxr\neuwkvdirqtcxa\nriuxvaqkcdte\n\n\
+eqaphotimfdrukcgwbyx\ndxtowkygamibqcrfeuhp\noiutpbavhdyqergfcmxws\n\
+ahcteowdfrkugpibqjymx\n\npmixjle\nuxljemp\nlkpsej\n\nmzqcwxuo\nxoucwzmq\n\
+xcumzqsow\nzcuqxmwo\n\nwt\nwt\n\ntyrajn\nhdtgroynjae\njrnyat\n\nuqifnlv\n\
+iqnevl\nvqienl\nnavciql\n\nqjxpshtuzbmfnvogcalw\nskvzqthufxcjeagrmdiwlyb\n\n\
+lvaftw\nvkfaywtl\nlfvawtq\n\nwpusqdfkybg\nmghtdxkpsur\ndsgxhumpk\n\
+jmdkpzrsixug\n\nqcbalvykixze\nfmrhcsadlnio\ncpautjihl\nclgainupm\nilcaft\n\n\
+pklutwg\ngdpkrl\nlrpkg\n\nwbup\nbygfurw\nubw\n\nxsoqjceyhunvat\n\
+jshgokqucxvlyn\n\npyk\npyk\n\nl\ns\n\nm\nm\nhm\n\nmsultwhivz\nvzitlhwmus\n\
+htsmluvzwi\nihszwmvult\niwthzsumvl\n\nwlohkegqpb\njzguytqrncd\nigqvesfa\n\nh\n\
+hgy\n\nxb\nx\nx\nx\nx\n\nij\nji\nhqdl\n\nk\nk\nfkswyr\nzk\n\nfrvpln\nvfcnlpr\n\
+vfnrlp\nrnpvfl\n\nouy\nyu\nuy\nyu\nyug\n\nrhekb\netnxfymlgdwovqzu\ncsbheji\n\
+beca\n\nvj\nnfpv\nv\nv\n\nruvqehmija\nmdhjqrayuie\nksqrfgjeihpmlu\n\n\
+kbsnlqxfrizjauthodp\nuxdjbqniholafzrskt\neaokjungrdfshlbtzqix\n\
+wjlsbciontzkdqfxhuar\nqjlosubzkfitnahrdx\n\nsbzcefm\nzsmb\nszmb\nmszb\nsmzb\n\
+\nxzisbpmc\nprihnxstmfzb\nklpbmszijxw\nvmepbiszxaq\nzipmjbxvs\n\nqjgbnvamedwi\
+\nqajzdoksweb\n\ngtkfqwlzashcen\ngeiqzsnhkfwctv\nesnmhfzgqutpwyk\n\
+igselxqndbfwthkz\n\nobpdyswkvthxgreanmjluq\nlahobnkyxtdrqgseuvcj\n\npw\nwpe\n\
+ylp\nep\n\nowrlgniy\niljkvwxyhopufzsqdc\n\nwxzgdpt\nsaxprdtkf\nqdxjotpgbwl\n\
+xtdhjpl\nutdjphxci\n\ngwkrjnizdxbvc\nhfnpygvaw\nygvutnaw\n\n\
+pecfzghqxturdijsblmk\nklsxuqpfhdbctrjgemzi\ndtuzljfxhmbgciqkeprs\n\n\
+iznfycwdrh\nzwnrchiydf\n\nxutwndim\nosidj\n\nknwyjicb\njc\nzjgc\ncju\n\njwtep\
+\nhjer\negj\n\nkhwsitfnxyep\niwkpnxeh\nwephiklnx\nhcigwzkapxremn\nnwehmapkxib\
+\n\nvuqbmineogja\ndlrpainmvugj\nravsmgijfcuhynt\nawvpiunjmg\n\nzdcalubhniv\n\
+nclhvibudaz\nvhcdbuznila\n\nbzcaorhqflg\njteyvpwsuxdnik\n\nicr\nrvic\ncri\n\
+ric\nric\n\nbqikw\nibwqk\n\nipxdcvmfulwejyg\nnqcelgydaskrxhi\n\npkovrgdljyh\n\
+vq\nixwv\nvsxaczn\n\nix\nxi\nix\n\nhkxl\nhklx\nuxlkcsvgeh\nkhlyjx\nblkxh\n\n\
+lhgcae\nyczfas\nconasulj\nxgbflezcuayo\nmvcidtapr\n\niwaepxckbvjnzmqft\n\
+pwiancxtmufqsvzj\ncpanmiftxjwqzv\nmhftvjnxzpowciqa\n\nir\nrd\nir\n\nxt\nxt\n\
+tx\nxtk\ntx\n\nrdatjzibwsu\nmdsuarwtizjb\n\nrselwj\nwetbjy\npzxqjowe\n\
+njtgbvwmei\n\nqgcazvn\ngqsvcnz\nvczgqn\n\nvmufbi\nefuinvmq\nuicgmkvr\nvnmilu\n\
+ubvwmix\n\nlseymvjuidhkoptazcxrw\nwnbsukhpjoedczrlavgtmf\n\
+scmrptkhdeazojwvquly\n\nqopb\nevwqyl\n\nsyuzojncfrliwap\nwnocfplirjzsa\n\
+izwrhvftqbdgpcjoasln\nljiznraspxofwc\nrzcpanjowslif\n\nlpebrhxtam\niyuvknwfso\
+\n\nby\nyb\n\nqshtypdlocawvgjb\nxvyrnwfqezshjoka\n\nxhw\nnwhx\nhwx\nwhsex\n\n\
+xelcghsquwivjydnrzkbfpa\nelviwcpnsokhjqubgadxyzfr\ndcfqxvneymsutzkrlpgbjiwah\n\
+\nghckb\nbgh\n\nrdojuvqncia\nnracovyiw\ncvryoina\nechariovn\n\n\
+rjmdqahvbplcusigfx\ncluaqvsfhmrjbpgidx\ngvchlipxjsaufrbqdm\n\
+pjdsqmvlcaubfirhxg\n\ntngbc\nbtcng\nnbgct\nbcgnt\n\naonpsbqkhwclrmdyuz\n\
+mcgubhqdokarzlspnwy\nolhybcuasmrdzqwnkp\nlkshamocyrdznwuqbp\n\
+wlunozascybqprmhkd\n\nskilqth\nqhlts\nuslvqt\nfqstl\nftshql\n\nfbtxdirelcsqzu\
+\nicsyjfltxdeurq\nrueptfdcqylixs\nusqtxfdrclei\nlwqdvtxeirsfucna\n\nxphvrbl\n\
+bthixl\nwqjmohcfxyazlsb\nvhluxb\n\nkbnogjrhe\nkrbngeohj\nhnekjbrog\nrkbeognjh\
+\nkjrohebng\n\nz\nyzn\n\nwslprjfqa\nregwpyqdksaci\n\nglmkujvbatqwc\n\
+mtubqgclavrjwk\nwuqmjlgcabvtk\ngaluqbvctmkjw\nckblwqujgvmat\n\nkgrmfstlejw\n\
+bdithoauynzpv\n\nwvyzhfdistmqkrugx\nnzlspqermfwjahui\nufqsipwozmhr\n\n\
+fdsavukrbpcm\nzrasokjlvudmpbf\neqvbkfrswpdtumag\ndmhkfplvbarnus\n\ntdorlvb\n\
+pvdhiko\nomgsjwuavycxe\npziqbovhnf\n\nf\na\nu\nu\nu\n\nefg\negf\nfeg\nfge\n\n\
+wsf\nlmcd\nf\nv\nve\n\nmibscvfqnhoxty\nrxphcsiqbofvnw\nuexoibzljkqagcnf\n\n\
+sbmhgyqvkuoljzwrfnxietca\nocjebltaqwursipnfkmx\n\nxeh\nunxmh\n\ndu\nud\nud\n\
+du\n\ntvzo\nvo\novft\nvto\npovdq\n\nr\ns\nlhibgo\nqny\nnwk\n\n\
+cwxfhrgjdsyamtkv\nfshogpwdinlrcjexmt\nyxvdtzfrsgmcjqwbh\n\nzil\nliz\nliz\n\n\
+iygvphrujkwaxl\nikjyutlxawvgrph\nhvuliyrdjakwpxg\nrjthkylwipxgvuad\n\
+wivxkhlausgpjyr\n\nvrxkaqzgmsyon\nvorxcumswqznyag\n\nvlhuwzmdq\nbsoryk\nyeka\n\
+\neiqwuz\nuvwznpqikr\nwluozi\nxjbyizufsagdtwm\nwzhuic\n\n\
+wydkjlfzpeqtgxorhmnuci\ntuczlfqrdnyxihgjopkwem\ntdpylmxcibgkfhjzwerasnou\n\
+zelpcrdoygnxjvfmktuhwi\ngwmehyiojukcnfxrptzdl\n\nvcuizfrlhqa\nrvizlucafhqj\n\
+cviluqfhraz\n\nwmgu\nve\nsgly\nfmwx\n\nke\nek\n\nelhq\nhqel\nqehl\nehql\n\n\
+hzdfnwxtjysrio\nmykgu\nvy\nkpmaqy\ngbeykc\n\npfkj\nhfkpj\nkpfj\npfjk\nkpfjd\n\
+\nz\nt\nz\nt\noxy\n\nux\nauhzoj\nxu\nu\n\ngcaldiph\nlhnfapi\n\nslg\nslg\nlgs\n\
+lgs\nsgl\n\nh\nh\nh\n\nqodwxpmskvjbtycuzghfe\npesjgxqzbtdcoyhwmu\n\
+ylthszqpuwebodxmgcj\nchqjetzxgdyopbwmuls\n\nfkgtmuyoivdehpjcxsba\n\
+agycjmdsfirvkuowtpbhex\n\nocaw\nmsclaw\ncwm\njdwceh\n\nekfyibdncovguazhjr\n\
+jkhgzbaoyidunvfr\nvyaihouznrkgjbfd\nxghojvrbdnzfuyaki\n\njpgqlhvyi\npqihag\n\
+hqpig\ngupqhi\nghqip\n\nglatmnqesbiwzkhup\njykuqrbswnmvocx\n\n\
+ykqwxpjgcshtdbau\ndfxqwpgbjcstkyua\nxsgatjcbkwdyqup\nusqykjpbgxdcwat\n\n\
+cmevolpwiq\nmoagpqevltjiw\nfmwziqbpuvleko\ndjvspewmohiql\n\nmdux\nxmkud\nxmdu\
+\n\nvptyrkjxhcmounzgaw\nwkmranuoxcjhslzytdigq\nmjcazrxkguwfhbtnoy\n\ne\nz\nmr\
+\ne\n\nvrqek\nkevrq\n\nwb\nvcti\nhyar\n\ne\ne\n\nchqesv\nvesqch\neqhvcs\n\n\
+uae\nxzecw\neyl\n\nbkgftdhvn\nnbfkgdtvhj\nnhftvgpkdb\n\nfwxkbouizcyjg\n\
+kwfqjgcyxzou\ngfkdoytrjpczuwx\ngyjvzcxfuowk\nmxcjzsnuaefowyhlkg\n\nitwzbp\n\
+yhnafe\n\ndtnzjkibprafm\nfnarjbkiptzdm\nnjrtpifmkbdaze\nqkndmpaufbrjtiwzx\n\n\
+eknujdxzmytriao\nerkujinftzq\neskumatjicdnryz\n\nlvzhmxewbgnkuorypfai\n\
+ibnwkrfogvhaezxumpyl\nhvbarmnowygqizujxplkef\nhegopvnwrfybamkluxiz\n\n\
+rdylnbotpv\nraugkqfelbnwy\n\nvk\ngnuypkw\nkvj\nkjh\n\nuprylxio\nluixrp\n\
+ruxplki\n\nu\ngmu\n\nugbqne\nykvzwr\ni\n\nvcqosrjbuxtl\nhovtxlrbcqsu\n\
+bequwsltvxco\nvxarnqstcbuzlo\ncvuxqpobtsjl\n\nctviybroekm\ncyrtbevimok\n\
+tvokrbciyme\nekctbyvmoir\ntymcviebokr\n\nsdmkxgfhjlpyba\npuaowzsdqthkle\n\
+zwredloshkpca\n\nfjxo\njoxf\nfjxo\njfxo\nfxoj\n\nmrqtv\nrvqtwfm\nrqmnvt\n\
+wmrvtq\nqrftvm\n\nqwtjlfobuydncgzheisxr\nqwxdlcuhjbnemaorpgfyzist\n\n\
+zenwdhikljm\nnejlmiwzkdh\njndelhwzkbmi\nzelhwnijkdm\n\njofdgmy\nojqdpbfg\n\
+gduojf\n\nawsgplcxqu\nmulxgapdcjqk\nacqjhfldpxgu\nxluqipvbngact\n\n\
+scdzqhyfplnx\nnxkygdjuzbcqsmvt\nzlxsqwnpdcay\nczsxnrqyold\n\nqzvlitw\nnjapdb\n\
+xkbcf\nuaogk\n\nok\ne\niu\n\nqshidleorzbgjnvpuckyawt\npiojqrtzbnaukgwvchlesd\n\
+gduvqkcnhioepstrljwbza\nqhripvstdjznlbgwuocake\njevrwsibcqlnutgkohdapz\n\n\
+upcealv\ngmpeyv\npve\nlpkuevz\n\npbtldk\nbpqhdk\ncibzd\n\nlk\nhs\nkx\nl\n\n\
+fkuirx\nsy\nzgqw\nqmv\nqv\n\ngdrtbwcjlhmqk\nakdlqzjhctgm\ndchqomkjylaftg\n\n\
+vwal\nficwjzusyom\nlw\n\nz\njyxo\nn\n\nx\nx\nx\ntwxs\nox\n\n\
+jzhaxuflebqwsipgctr\nmgawzjihxrpcuesfbqtl\nrljqhausvigxtofwczpbe\n\
+ifwjsdcbztphlxqrkeuag\nhizafygceblrquxwtnsjp\n\nioamx\nxiaomg\noxami\naxoim\n\
+amibxo\n\ndxgwsbmlnyqruckezp\nxlurgtqncpwyfbisdkejm\n\nvflkdqcxbzuwmengty\n\
+swdbuexzlqvgmf\n\nehsmravbk\nehmvrkadb\n\nqh\nhq\nthqx\nqh\n\nuhi\naui\nui\n\
+iu\niu\n\nwlrnmb\nyblnpr\nbztijfenkola\n\ny\nfgzyvds\nyoj\niyp\n\nohbiqfxzp\n\
+fpqihobx\nxhoeiqbfp\n\ncgfi\nfigc\nfgci\ncflgi\ncihgfnv\n\n\
+vytbdxlzuwarjphnogic\ngexwbnqfizmhtdjyrcolas\n\nhdeowrivjq\nuzihgmjwxrve\n\
+wijeorhlqdsuv\nryeitfhvjw\nejhawvnuir\n\nsiaxlobjmkvcwhernytfugd\n\
+rmtfsolejkdxihgvbnwcyua\noxglvkinrcebswamujfhtdy\ngwsatohiknljburmdycevxf\n\
+cwuzdbgnethrvysmxolfkaji\n\nm\ngm\nbhslre\n\nxonqwkzcfbmtidpyvlsheu\n\
+pylzcoxmvqkehdsnftubjwi\nnworbkczxutyedsvqfhimpl\n\nuatwvlgknhrfoqi\n\
+nwhbtokfiq\nseniqpdzfhxmcotyw\nutoiqafwhn\nnqtoifwjh\n\noxiflw\nhflwxo\n\
+loxwbf\n\nmbt\ntbm\n\nocjflngrdakuypqiwxstzhmvbe\nykdaueiczwglbtrhjqnmsfxovp\n\
+\nwtlzyrcomasqnjude\nowhqdnmkzrpjlsxc\nloqdmszxgvrjwcn\n\non\nx\nx\n\n\
+lbeyqfxkwm\njmqnfxbgwde\noezbufqrtm\n\nd\ny\ny\nta\n\nz\np\n\nfyx\nxfiy\nfxyw\
+\nxdfcy\nfyx\n\ncsjxkozmnl\nslomjxkzc\n\nhqwadymfsbtlxv\nkdvbatlfshwqmxy\n\
+lyahsxmqfwdtbvz\nwxmlyahfdstvqb\ntvqdsxfynlhamwb\n\nojmvurikheablq\n\
+ukidqhvaljobe\n\nimc\ntdkjmp\nmi\n\neq\neq\n\nthgulyifqobdwvecmarsjnp\n\
+ndlygcmjahefquiswbrptvo\n\nsjnptmdrlc\nuvebzmlodrncp\nlmypxkcfrnsd\n\
+cnmhdlqxiarwpg\n\nnzvqlh\nhlzvn\nlzhnv\n\njuq\nju\nuj\n\ntjqiucmynvozxh\n\
+kmdvwafrxtq\nexgqmtv\nftsqxmv\nqklbtmxva\n\nr\nr\npj\n\npkoy\nypok\nkypo\n\
+okyp\n\nf\nfl\nf\nf\nf\n\nsnvqdyx\ntdsxvnqy\ndeqynxsv\ndnsxqvy\n\n\
+lzhopfimuretwvd\njqgbvakrds\n\nzfbocen\nmzbnacu\n\nezyxtajrv\nwzjuxreatv\n\n\
+mrsejiyuvfz\njkuctbxpoiw\n\nnyvefxqicbah\nbrgeyltxvik\nkyuvilexbs\nztvixyepb\n\
+pxiygvbe\n\nnadq\nnyt\n\nprmt\nysjqkmocznhda\ngmlibeu\nbxmvf\n\nrm\nwm\nm\nm\n\
+\nwyfjzdlvcgreb\nemlxnkpfjav\nelijupnfvh\n\npybv\nbpvy\nyrbvp\n\nzrjkxshpufec\
+\nvindgwtqbl\n\nngmtqzfcpudhw\ntphzgcwnqdfmu\nftzgphnmcudqw\nquzpmctfngdwh\n\
+gqpdhufwcmtzn\n\nszfcnb\nfczns\nfnzcbsg\nsznvafck\n\narcezgin\negcirazn\n\
+gezcrian\nicgnraez\n\nhgqucfnt\ngqnukt\nqgncut\ntuqnhg\nunfgqit\n\nw\nsetbdgv\
+\n\nlck\nlxk\nkcl\nkl\n\nemaqhxorctykufp\ntigjzqhv\n\nmlvow\njqwo\n\
+ghksnruxipoac\n\nhxnpeqt\nhtzen\nnhte\npchtne\n\nehovjgfzaql\nqhazvjlgeof\n\
+kfgljqhavzoe\njvlzfhgoeqa\nveolzqfjgah\n\nbdlitrzuwh\nepfmuhgvstibr\>\"", 
+     ",", "\"\<\\n\\n\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8170984565484123`*^9, 3.817098469947533*^9}},
+ CellLabel->
+  "In[184]:=",ExpressionUUID->"6c8ed97e-d5b8-4ca2-a77a-603b24f19175"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Tr", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Length", "@", 
+     RowBox[{"Union", "@", 
+      RowBox[{"DeleteCases", "[", 
+       RowBox[{
+        RowBox[{"Characters", "@", "#"}], ",", "\"\<\\n\>\""}], "]"}]}]}], 
+    "&"}], "/@", "input"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8170984711766243`*^9, 3.8170985745169067`*^9}},
+ CellLabel->
+  "In[191]:=",ExpressionUUID->"fe8522e6-7d8e-4569-a6d0-ae304b037cf0"],
+
+Cell[BoxData["6633"], "Output",
+ CellChangeTimes->{{3.817098473175675*^9, 3.8170985748139043`*^9}},
+ CellLabel->
+  "Out[191]=",ExpressionUUID->"409cf1c5-3087-48ee-b305-60124ec0bee5"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2", "Section",
+ CellChangeTimes->{{3.817071905144342*^9, 
+  3.8170719182231984`*^9}},ExpressionUUID->"e3395069-920a-4b53-b7dd-\
+62a226712425"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Tr", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Length", "[", 
+     RowBox[{"Intersection", "@@", 
+      RowBox[{
+       RowBox[{"Composition", "[", 
+        RowBox[{"Characters", ",", "StringSplit"}], "]"}], "[", "#", "]"}]}], 
+     "]"}], "&"}], "/@", "input"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8170987645810566`*^9, 3.8170988198748255`*^9}},
+ CellLabel->
+  "In[197]:=",ExpressionUUID->"a8c1abb8-eca5-4545-b285-7e318fd8d976"],
+
+Cell[BoxData["3202"], "Output",
+ CellChangeTimes->{{3.8170987906101885`*^9, 3.8170988202824235`*^9}},
+ CellLabel->
+  "Out[197]=",ExpressionUUID->"539aeff4-5a94-450d-93e6-7d6536f55649"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{949, 485},
+WindowMargins->{{7.5, Automatic}, {Automatic, 59.5}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (2020\:5e746\:67089\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"aa6ce9f6-98ec-4f0b-b715-066e497b9145"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 171, 3, 67, "Section",ExpressionUUID->"3b5715f8-fc59-4a77-9e4b-2037f361547f"],
+Cell[754, 27, 20099, 274, 42654, "Input",ExpressionUUID->"6c8ed97e-d5b8-4ca2-a77a-603b24f19175"],
+Cell[CellGroupData[{
+Cell[20878, 305, 438, 12, 28, "Input",ExpressionUUID->"fe8522e6-7d8e-4569-a6d0-ae304b037cf0"],
+Cell[21319, 319, 182, 3, 32, "Output",ExpressionUUID->"409cf1c5-3087-48ee-b305-60124ec0bee5"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21550, 328, 148, 3, 67, "Section",ExpressionUUID->"e3395069-920a-4b53-b7dd-62a226712425"],
+Cell[CellGroupData[{
+Cell[21723, 335, 457, 12, 28, "Input",ExpressionUUID->"a8c1abb8-eca5-4545-b285-7e318fd8d976"],
+Cell[22183, 349, 184, 3, 32, "Output",ExpressionUUID->"539aeff4-5a94-450d-93e6-7d6536f55649"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
